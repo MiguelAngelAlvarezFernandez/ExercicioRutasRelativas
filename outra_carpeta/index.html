@@ -10,13 +10,19 @@
     <h1>Páxina noutra carpeta</h1>
     <p>Visita / para ver a páxina principal</p>
     <!-- Crea aquí un enlace á outra páxina usando unha ruta absoluta -->
+    <a href="/index.html">Páxina principal (Ruta absoluta)</a>
+    <br>
     <!-- Crea aquí un enlace á outra páxina usando unha ruta relativa -->
-
+    <a href="../index.html">Páxina principal (Ruta relativa)</a>
     <div>
         <!--
             Inserta aquí as imaxes das portadas empregando rutas absolutas.
             As rutas absolutas son as que empezan por '/'
         -->
+        <p>Imagenes insertadas con referencias absolutas:</p>
+        <img src="/imaxes/portada1.jpeg" alt="Imaxe 1">
+        <img src="/imaxes/portada2.jpeg" alt="Imaxe 2">
+        <img src="/imaxes/portada3.jpeg" alt="Imaxe 3">
     </div>
     <div>
         <!--
@@ -25,6 +31,10 @@
             ou fan referencia directa ó nome dun elemento na mesa ruta do
             documento actual.
         -->
+        <p>Imagenes insertadas con referencias relativas:</p>
+        <img src="../imaxes/portada1.jpeg" alt="Imaxe 1">
+        <img src="../imaxes/portada2.jpeg" alt="Imaxe 2">
+        <img src="../imaxes/portada3.jpeg" alt="Imaxe 3">
     </div>
 </body>
 </html>
